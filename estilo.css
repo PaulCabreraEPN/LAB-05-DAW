@@ -1,0 +1,75 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cajaPrincipal {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.cajaPrincipal01{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: rgb(249, 249, 218);
+}
+.cajaPrincipal img {
+    width: 70%;
+}
+.cajaPrincipal01 button{
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 2%;
+}
+.botonInicioSesion{
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 1%;
+}
+.cajaPrincipal01{
+    display: flex;
+}
+.encabezado{
+    display: flex;
+}
+.botonCompras{
+    background-color: rgb(241, 210, 7);
+    color: rgb(0, 0, 0);
+}
+.botonInicioSesion{
+    background-color: rgb(241, 210, 7);
+    color: rgb(0, 0, 0);
+}
+.contenedorInicioSesion{
+    display: block;
+    margin-left: 26%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-size: 35px;
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedorInicioSesion.img{
+    text-align: center;
+}
+input{
+    padding: 2%;
+    width: 80%;
+    font-size: 30px;
+}
+.contenedorInicioSesion button{
+    font-size: 25px;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgb(224, 148, 35);
+    color: rgb(0, 0, 0);
+    border:rgb(224, 148, 35);
+}
+.contenedorInicioSesion{
+    background-color: rgb(232, 248, 54);
+}
+.encabezado.botonInicioSesion{
+    margin-right: 10%;
+}
